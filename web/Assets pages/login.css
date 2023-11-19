@@ -1,0 +1,151 @@
+body{
+    background-color: rgb(61, 214, 252);
+    background-image: url(image-bg.jpeg) ;
+    background-size: cover;
+    color: rgba(248, 248, 248, 0.89);
+    font-size: 12pt;
+    font-family: 'roboto';
+    font-weight: bold;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform: uppercase;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    background: rgba(255, 255, 255, 0.17);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+input[type=text]{
+    width: 200pt;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: solid 2px rgb(131, 131, 131) ;
+    background-color: rgb(236, 236, 236);
+    margin: 0px 15px 15px 0px;
+    padding: 5px;
+    display: flex;
+    text-align: center;
+    color: rgba(248, 248, 248, 0.89);
+
+    
+}
+
+input[type=password]{
+    width: 200pt;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: solid 2px rgb(131, 131, 131) ;
+    background-color: rgb(236, 236, 236);
+    margin: 0px 15px 15px 0px;
+    padding: 5px;
+    display: flex;
+    color: rgba(248, 248, 248, 0.89);
+    
+}
+
+
+.usuario{
+    color: rgb(243, 243, 243);
+    font-family: roboto;
+    font-weight: bold;
+}
+
+input[type=submit]{
+    background: rgb(255,255,255);
+    background: linear-gradient(25deg, rgba(255,255,255,0.510329131652661) 0%, rgba(204,244,255,0.8072478991596639) 0%, rgba(74,224,255,0.47951680672268904) 100%);    width: 130px;
+    height: 45px;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    top: 10px;
+    position: relative;
+    border-radius: 10pt;
+    border: none;
+    
+}
+
+input{
+    border: none;
+    border-radius: none;
+    outline: none;
+}
+
+
+.cadastro_botao{
+    transition: 0.3s ease;
+    left: 5%;
+
+}
+
+.cadastro_botao:hover{
+    transition: 0.3s ease;
+    height: 55px;
+    width: 175px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+#passworduser{
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 1pt rgb(172, 172, 172);
+    text-decoration: none;
+}
+
+#novo_email{
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 1pt rgb(172, 172, 172);    text-decoration: none;
+}
+
+a:link{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    transition: 0.1s;
+    color: #55d4ff;
+}
+
+a:visited{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+a:active{
+    color:#0094C6;
+}
+

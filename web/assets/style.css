@@ -1,0 +1,173 @@
+@font-face{
+    font-family: Dosis;
+    src: url(Dosis-VariableFont_wght.ttf);
+}
+
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(-45deg, rgba(2,0,36,1) 0%, rgba(0,184,148,1) 0%, rgba(0,212,255,1) 100%);
+    background-repeat: no-repeat;
+    position: static;
+
+}
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-basis: 3px;
+    color: aliceblue;
+    height: 50pt;
+    max-height: 50pt;
+    align-items: center;
+    background-color: #01526d6c;
+    border-radius: 5px;
+    text-shadow: 2px 2px black;
+    box-shadow: 1px 1px 50px 2px #363636
+}
+
+.menu{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 81, 255);
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-height: 500pt;
+}
+
+h2{
+    color: rgb(51, 51, 51);
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+}
+
+a:link{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 19px;
+}
+
+a:visited{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+a:active{
+    color:#0094C6;
+}
+
+a{
+    transition: 0.3s;
+}
+
+
+.header2{
+    display: flex;
+}
+
+  
+.desc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+button{
+    height: 50px;
+    width: 250px;
+    border-radius: 25px;
+    border: solid 1px black;
+    text-align: center;
+    margin: 0;
+    font-family: 'Roboto';
+    color: aliceblue;
+    text-transform: uppercase;
+    text-shadow: 1px 1px black;
+    align-items: center;
+    display: inline-block;
+    font-size: 18px;
+    letter-spacing: 2px;
+    background: rgb(2,0,36);
+    background: linear-gradient(144deg, rgba(2,0,36,1) 0%, rgba(0,121,255,1) 0%, rgba(0,52,205,1) 100%);
+    transition: 0.3s;
+}
+
+.desc2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: 10%;
+}
+
+button:hover{
+    height: 55px;
+    width: 255px;
+    font-size: 19px;
+    transition: 0.3s ease;
+    box-shadow: 1px 1px 15px 2px #22222248;
+    cursor: pointer;
+}
+
+.buttonET{
+    width: 0px;
+    height: 0px;
+    background: none;
+    outline: none;
+    border: none;
+    top: 5px;
+    position: relative;
+    transition: none;
+
+}
+.buttonET:hover{
+    width: 0px;
+    height: 0px;
+    background: none;
+    outline: none;
+    border: none;
+    top: 5px;
+    position: relative;
+    transition: none;
+    
+}
+

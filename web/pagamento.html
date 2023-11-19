@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário de Pagamento</title>
+        <link rel="stylesheet" href="Assets pages/pagamento.css">
+    </head>
+    <body>
+        <style>
+         body {
+            text-align: center; 
+        }
+        
+         form {
+            max-width: 400px; 
+            margin: 0 auto; 
+            text-align: left;
+        }
+     </style>
+    <body>
+     <h1  style="font-family: Roboto; color: whitesmoke;">SEJA UM APOIADOR</h1>
+    
+        <form action="processar_pagamento.php" method="post">
+            <label for="numero_cartao">Número do Cartão de Crédito:</label>
+            <input type="text" id="numero_cartao" name="numero_cartao" placeholder="XXXX-XXXX-XXXX-XXXX" required><br>
+        
+            <label for="data_validade">Data de Validade:</label>
+         <input type="text" id="data_validade" name="data_validade" placeholder="MM/AA" required><br>
+        
+         <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" placeholder="XXX" required><br>
+        
+             <input type="submit" value="Pagar"><br><br><br>
+            <form action="gerar_boleto.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br>
+            
+                <label for="valor">Valor Mensal:</label>
+                <input type="text" id="valor" name="valor" required><br>
+            
+                <label for="data_vencimento">Data de Vencimento:</label>
+                <input type="date" id="data_vencimento" name="data_vencimento" required><br>
+            
+                <input type="submit" value="Gerar Boleto"><br><br>
+             </form>
+          </form>
+          <p> OBRIGADO POR FAZER PARTE, JUNTOS FAZEMOS A DIFERENÇA NóS DA EDUTEC AGRADECEMOS :)</p>
+    </body>
+</html>
